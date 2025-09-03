@@ -1,0 +1,23 @@
+/* obsidian-calendar-plugin */
+/* https://github.com/liamcain/obsidian-calendar-plugin */
+
+/* Container */
+#calendar-container {
+  font-size: 0.3em;
+  /* table-layout: fixed; */
+}
+
+/* Each cell in the table */
+#calendar-container th,
+#calendar-container th td {
+  padding: 2px;
+  /* max-width: 5px; */
+}
+
+/* Each cell ? */
+#calendar-container .day,
+#calendar-container .week-num {
+  padding: 2px;
+  font-size: 3em;
+  /* max-width: 5px; */
+}

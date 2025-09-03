@@ -1,0 +1,42 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "[00] Meta/[01] Attachments",
+  "promptDelete": false,
+  "newFileLocation": "folder",
+  "showFrontmatter": true,
+  "spellcheck": true,
+  "spellcheckDictionary": [],
+  "defaultViewMode": "source",
+  "mobileToolbarCommands": [
+    "editor:save-file",
+    "editor:unindent-list",
+    "editor:indent-list",
+    "editor:toggle-blockquote",
+    "editor:undo",
+    "editor:redo",
+    "editor:insert-wikilink",
+    "daily-notes",
+    "editor:insert-table",
+    "editor:insert-embed",
+    "editor:attach-file",
+    "editor:configure-toolbar",
+    "editor:toggle-source"
+  ],
+  "tabSize": 2,
+  "useTab": true,
+  "newFileFolderPath": "[10] Inbox",
+  "showLineNumber": false,
+  "strictLineBreaks": false,
+  "mobilePullAction": "command-palette:open",
+  "vimMode": true,
+  "readableLineLength": false,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 74
+  },
+  "showInlineTitle": true
+}

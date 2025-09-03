@@ -1,0 +1,8 @@
+.smaller-note {
+  font-size: 12px !important;
+
+  --metadata-display-reading: none;
+  --h1-size: 0;
+  --h2-line-height: 5px;
+  --h2-size: 2em;
+}

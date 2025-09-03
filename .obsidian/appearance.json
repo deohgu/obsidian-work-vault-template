@@ -1,0 +1,18 @@
+{
+  "accentColor": "#b85151",
+  "baseFontSize": 16,
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "checklist",
+    "indented-paragraphs",
+    "slides",
+    "smaller-note",
+    "fix-mermaid-overflow"
+  ],
+  "translucency": false,
+  "theme": "obsidian",
+  "interfaceFontFamily": "Montserrat",
+  "baseFontSizeAction": false,
+  "monospaceFontFamily": "JetBrains Mono",
+  "textFontFamily": "MontSerrat"
+}

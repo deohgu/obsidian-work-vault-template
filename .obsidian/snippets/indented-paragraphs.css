@@ -1,0 +1,25 @@
+/* ---------- Paragraphs ---------- */
+
+/*---- Reading View ----*/
+
+/* Indent paragraphs in Preview mode */
+.markdown-preview-view p {
+  text-indent: 2ch;
+}
+
+/*--- End Reading View ---*/
+
+/*---- Editing View ----*/
+
+/* Indent paragraphs in Edit mode */
+.markdown-source-view
+  .cm-line:not(.HyperMD-header):not(.HyperMD-header-1):not(
+    .HyperMD-header-2
+  ):not(.HyperMD-header-3):not(.HyperMD-header-4):not(.HyperMD-header-5) {
+  text-indent: 1.5ch;
+  /* padding-left: 2ch; */
+}
+
+/*--- End Editing View ---*/
+
+/* -------- End Paragraphs -------- */
