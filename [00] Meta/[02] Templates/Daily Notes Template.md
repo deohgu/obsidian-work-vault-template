@@ -1,12 +1,12 @@
 ---
-title: 
-created: 
-aliases: 
+title: <% tp.file.title %>
+created: <% tp.date.now("YYYY-MM-DD HH:mm") %>
 tags:
   - daily_note
-url: 
-summary:
+aliases:
 ---
+
+# <% tp.file.title %>
 
 > [!info] Guidelines
 > - To avoid headaches, listen to white noise instead of music when you need to block out sound or focus.

@@ -1,39 +1,42 @@
 {
   "choices": [
     {
-      "id": "f7c4d468-6f36-4d17-bffe-25637cb59e66",
-      "name": "Create Flash Fiction note",
-      "type": "Template",
+      "id": "13bb38d2-7bcd-4752-980c-55afd2f891f9",
+      "name": "Log Update",
+      "type": "Capture",
       "command": true,
-      "templatePath": "[00] Meta/[02] Templates/Flash Fiction Template.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "Untitled"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "[40] Concepts/[46] Liberal Arts/[60] Writing/Flash Fiction"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
       "appendLink": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
+      "captureTo": "daily-notes/{{DATE:YYYY-MM-DD}}",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": true,
+        "template": "[00] Meta/[02] Templates/Daily Notes Template.md"
       },
+      "format": {
+        "enabled": true,
+        "format": "- {{time:HH:mm:ss}} - {{VALUE}}"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "newLineCapture": {
+        "enabled": false,
+        "direction": "below"
+      },
+      "prepend": true,
+      "task": false,
       "openFile": true,
-      "openFileInMode": "default",
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false,
       "fileOpening": {
         "location": "tab",
         "direction": "vertical",
-        "focus": true,
-        "mode": "default"
+        "mode": "default",
+        "focus": true
       }
     }
   ],
@@ -41,7 +44,9 @@
   "devMode": false,
   "templateFolderPath": "",
   "announceUpdates": false,
-  "version": "2.1.0",
+  "version": "2.3.0",
+  "globalVariables": {},
+  "onePageInputEnabled": false,
   "disableOnlineFeatures": true,
   "enableRibbonIcon": false,
   "showCaptureNotification": true,

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ef6ec75ebf9d7ba5",
+        "id": "0f244bab99cb7e34",
         "type": "tabs",
         "children": [
           {
-            "id": "b27bdd5c4f5d92c2",
+            "id": "18d336f47038daf7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -90,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "555c32597bf78d9d",
@@ -208,19 +209,30 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "cmdr:Log Update": false,
       "daily-notes:Open today's daily note": false,
-      "switcher:Open quick switcher": false,
+      "switcher:Open quick switcher": true,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "command-palette:Open command palette": false,
+      "canvas:Create new canvas": true,
+      "command-palette:Open command palette": true,
       "random-note:Open random note": false,
-      "bases:Create new base": false,
+      "bases:Create new base": true,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": true
     }
   },
-  "active": "b27bdd5c4f5d92c2",
+  "active": "18d336f47038daf7",
   "lastOpenFiles": [
+    "daily-notes/2025-09-17.md",
+    "daily-notes",
+    "[00] Meta/[02] Templates/Daily Notes Template.md",
+    "Daily-Notes/2025-09-17.md",
+    "Daily-Notes",
+    "quickadd/manifest.json",
+    "quickadd/main.js",
+    "quickadd/data.json",
+    "quickadd/styles.css",
+    "quickadd",
     "Tasks.md"
   ]
 }

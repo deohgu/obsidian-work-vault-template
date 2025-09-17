@@ -58,5 +58,14 @@
     }
   ],
   "editor:open-search": [],
-  "global-search:open": []
+  "global-search:open": [],
+  "quickadd:choice:13bb38d2-7bcd-4752-980c-55afd2f891f9": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ]
 }
