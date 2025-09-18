@@ -174,7 +174,7 @@
       "empty-line-after-yaml": true
     },
     "line-break-at-document-end": {
-      "enabled": true
+      "enabled": false
     },
     "move-math-block-indicators-to-their-own-line": {
       "enabled": false
